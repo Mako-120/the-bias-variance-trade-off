@@ -26,9 +26,8 @@ The expected squared prediction error decomposes as:
 
 ```
 E[(Y − A(Yₙ))²] = (E[Y] − E[A(Yₙ)])² + Var(A(Yₙ)) + Var(Y)
-                   └────────────────┘    └──────────┘   └────┘
-                      Squared Bias      Est. Variance   Process
-                                                        Variance
+                   └─────────────┘   └──────────┘  └────┘
+                      Squared Bias   Est. Variance   Process Variance
 ```
 
 where:
